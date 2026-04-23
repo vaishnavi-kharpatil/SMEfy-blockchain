@@ -5,10 +5,10 @@ compiled_package_info:
     Extensions: "0000000000000000000000000000000000000000000000000000000000000001"
     aptos_framework: "0000000000000000000000000000000000000000000000000000000000000001"
     aptos_std: "0000000000000000000000000000000000000000000000000000000000000001"
-    named_addr: 316c1dcbd2a477e156eba64fa0184903a67e2097a170dbbf16add5b1e66d4b41
+    named_addr: 698ad948b44dffec3507403862d6de5832a37a3d16dd74a78090e84f65696bad
     std: "0000000000000000000000000000000000000000000000000000000000000001"
     vm: "0000000000000000000000000000000000000000000000000000000000000000"
-  source_digest: 53BD8BAD8626A1B4CEF7EE64845E50117F464F5D75142D2E17E36A00B5E5498A
+  source_digest: 7DCABDE167C2B523A8CE47061C4327961A8333FD53A48933009936CCFD452E2E
   build_flags:
     dev_mode: false
     test_mode: false
@@ -23,7 +23,7 @@ compiled_package_info:
     fetch_deps_only: false
     skip_fetch_latest_git_deps: false
     compiler_config:
-      bytecode_version: 7
+      bytecode_version: 8
       known_attributes:
         - bytecode_instruction
         - deprecated
@@ -46,7 +46,7 @@ compiled_package_info:
         - view
       skip_attribute_checks: false
       compiler_version: V2_0
-      language_version: "2.1"
+      language_version: "2.2"
       experiments:
         - optimize=on
 dependencies:

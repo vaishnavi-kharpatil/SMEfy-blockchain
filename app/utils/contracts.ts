@@ -28,7 +28,7 @@ console.log(app);
 const db = getFirestore(app);
 const APTOS_COIN = "0x1::aptos_coin::AptosCoin";
 const COIN_STORE = `0x1::coin::CoinStore<${APTOS_COIN}>`;
-const config = new AptosConfig({ network: Network.TESTNET });
+const config = new AptosConfig({ network: Network.DEVNET });
 const aptos = new Aptos(config);
 
 async function get_acc_no(id: number) {

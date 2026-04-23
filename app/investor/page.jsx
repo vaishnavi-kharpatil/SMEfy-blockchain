@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { onAuthStateChanged } from "firebase/auth";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { fundStartup } from "../utils/contracts";
+import { fundStartup } from "../utils/contracts.ts";
 import Chatbot from '../components/Chatbot';
 import './page.css';
 

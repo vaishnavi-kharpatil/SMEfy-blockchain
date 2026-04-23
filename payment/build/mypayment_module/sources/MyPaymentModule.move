@@ -1,4 +1,4 @@
-module 0x316c1dcbd2a477e156eba64fa0184903a67e2097a170dbbf16add5b1e66d4b41::MyPaymentModule {
+module 0x698ad948b44dffec3507403862d6de5832a37a3d16dd74a78090e84f65696bad::MyPaymentModule {
     use std::signer;
 
     /// Error codes
